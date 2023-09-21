@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500");
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-image: linear-gradient(white,white, #ffe4b5, #654321)
+}
+
+#logo {
+    box-shadow: none;
+}
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    border: 2px black;
+}
+
+li, a:hover {
+    color: #0088a9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-image: white;
+}
+
+img {
+    cursor: pointer;
+    box-shadow: 0.5em 0.5em 0.5em black;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav_links li a {
+    padding: 9px 25px;
+    background-color: grey;
+    border-radius: 50px;
+    box-shadow: 0.5em 0.5em 0.5em black;
+}
+
+.Main_img {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.description {
+    text-align: center;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    padding: 20px 20px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    background-image: linear-gradient(#654321,white,#654321);
+    box-shadow: 0.5em 0.5em 0.5em black;
+    margin-top: 1em;
+    border-radius: 1em;
+    border-bottom: solid 0.3em black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}
+
+footer {
+    padding-top: 40px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<Drinks Page>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+.img-gallery {
+    width: 90%; 
+    margin: 25px auto 50px; 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    grid-gap: 20px; 
+
+}
+
+.img-gallery img {
+    width: 100%;
+    cursor: pointer; 
+}
+
+.img-gallery img:hover {
+    transform: scale(0.8) rotate(-15deg); 
+    border-radius: 20px; 
+    box-shadow: 0 32px 75px rgba(68, 77, 136, 0.2);
+}
+
+.photo_text {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    padding-bottom: 20px;
+}
+
+.photo_text p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 9px 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0.5em 0.5em 0.5em black;
+    cursor: pointer; 
+}
+
+button p {
+    font-family: "Montserrat", sans-serif;
+}
+
+button:hover {
+    color: #0088a9;
+}
+
